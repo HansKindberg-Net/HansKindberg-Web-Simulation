@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Simulation", "HansKindberg.Web.Simulation\HansKindberg.Web.Simulation.csproj", "{138402B4-26DD-4B93-96B4-9EAD4DEE7CEE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{90F34C08-3DC6-4769-A2FC-438CCCF95F0C}"
+	ProjectSection(SolutionItems) = preProject
+		HansKindberg.snk = HansKindberg.snk
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Properties", "Properties", "{25F94084-50EA-4410-A88A-BCEB6593CC82}"
+	ProjectSection(SolutionItems) = preProject
+		Properties\SolutionInfo.cs = Properties\SolutionInfo.cs
+		Properties\SolutionInfo.Mvc.cs = Properties\SolutionInfo.Mvc.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeAnalysis", "CodeAnalysis", "{DA4F962B-83BE-4A4C-B99B-2D75B076CFFA}"
+	ProjectSection(SolutionItems) = preProject
+		CodeAnalysis\Solution.ruleset = CodeAnalysis\Solution.ruleset
+		CodeAnalysis\Solution.Tests.ruleset = CodeAnalysis\Solution.Tests.ruleset
+		CodeAnalysis\SolutionDictionary.xml = CodeAnalysis\SolutionDictionary.xml
+		CodeAnalysis\SolutionSuppressions.cs = CodeAnalysis\SolutionSuppressions.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Simulation.Tests", "HansKindberg.Web.Simulation.Tests\HansKindberg.Web.Simulation.Tests.csproj", "{E920B93C-6F56-4ED2-BF16-C52020DE0C2C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1A13C70C-80A6-4FD0-BFE4-3894D9497A6B}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.config = .nuget\NuGet.config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Simulation.ShimTests", "HansKindberg.Web.Simulation.ShimTests\HansKindberg.Web.Simulation.ShimTests.csproj", "{860494B1-1A7C-41C7-A61F-6C8764EC3924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Simulation.IntegrationTests", "HansKindberg.Web.Simulation.IntegrationTests\HansKindberg.Web.Simulation.IntegrationTests.csproj", "{24781417-0023-4824-A30E-4E24F8AD52E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Mvc.Simulation", "HansKindberg.Web.Mvc.Simulation\HansKindberg.Web.Mvc.Simulation.csproj", "{524BB41A-08D4-448C-BE9B-7390E0B403CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Simulation.Application", "HansKindberg.Web.Simulation.Application\HansKindberg.Web.Simulation.Application.csproj", "{EB32BEFA-F168-442F-8C98-E787277D1F9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Mvc.Simulation.Application", "HansKindberg.Web.Mvc.Simulation.Application\HansKindberg.Web.Mvc.Simulation.Application.csproj", "{51077DAD-3B1B-42B0-B6A4-1419C0FF9CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Mvc.Simulation.Tests", "HansKindberg.Web.Mvc.Simulation.Tests\HansKindberg.Web.Mvc.Simulation.Tests.csproj", "{5F1F4BFF-FDE8-46FE-948E-744159434FC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Mvc.Simulation.IntegrationTests", "HansKindberg.Web.Mvc.Simulation.IntegrationTests\HansKindberg.Web.Mvc.Simulation.IntegrationTests.csproj", "{C6A082D7-673F-47B4-9F66-8CF2A53D784E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HansKindberg.Web.Simulation.Applications.Logic", "HansKindberg.Web.Simulation.Applications.Logic\HansKindberg.Web.Simulation.Applications.Logic.csproj", "{598C4C1D-2BE2-41D3-90E2-627231640893}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{138402B4-26DD-4B93-96B4-9EAD4DEE7CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{138402B4-26DD-4B93-96B4-9EAD4DEE7CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{138402B4-26DD-4B93-96B4-9EAD4DEE7CEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{138402B4-26DD-4B93-96B4-9EAD4DEE7CEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E920B93C-6F56-4ED2-BF16-C52020DE0C2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E920B93C-6F56-4ED2-BF16-C52020DE0C2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E920B93C-6F56-4ED2-BF16-C52020DE0C2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E920B93C-6F56-4ED2-BF16-C52020DE0C2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{860494B1-1A7C-41C7-A61F-6C8764EC3924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{860494B1-1A7C-41C7-A61F-6C8764EC3924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{860494B1-1A7C-41C7-A61F-6C8764EC3924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{860494B1-1A7C-41C7-A61F-6C8764EC3924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24781417-0023-4824-A30E-4E24F8AD52E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24781417-0023-4824-A30E-4E24F8AD52E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24781417-0023-4824-A30E-4E24F8AD52E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24781417-0023-4824-A30E-4E24F8AD52E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{524BB41A-08D4-448C-BE9B-7390E0B403CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{524BB41A-08D4-448C-BE9B-7390E0B403CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{524BB41A-08D4-448C-BE9B-7390E0B403CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{524BB41A-08D4-448C-BE9B-7390E0B403CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB32BEFA-F168-442F-8C98-E787277D1F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB32BEFA-F168-442F-8C98-E787277D1F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB32BEFA-F168-442F-8C98-E787277D1F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB32BEFA-F168-442F-8C98-E787277D1F9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51077DAD-3B1B-42B0-B6A4-1419C0FF9CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51077DAD-3B1B-42B0-B6A4-1419C0FF9CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51077DAD-3B1B-42B0-B6A4-1419C0FF9CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51077DAD-3B1B-42B0-B6A4-1419C0FF9CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1F4BFF-FDE8-46FE-948E-744159434FC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1F4BFF-FDE8-46FE-948E-744159434FC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1F4BFF-FDE8-46FE-948E-744159434FC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1F4BFF-FDE8-46FE-948E-744159434FC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6A082D7-673F-47B4-9F66-8CF2A53D784E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6A082D7-673F-47B4-9F66-8CF2A53D784E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6A082D7-673F-47B4-9F66-8CF2A53D784E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6A082D7-673F-47B4-9F66-8CF2A53D784E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598C4C1D-2BE2-41D3-90E2-627231640893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598C4C1D-2BE2-41D3-90E2-627231640893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598C4C1D-2BE2-41D3-90E2-627231640893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598C4C1D-2BE2-41D3-90E2-627231640893}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

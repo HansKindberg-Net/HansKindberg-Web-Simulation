@@ -1,0 +1,27 @@
+﻿@model HansKindberg.Web.Mvc.Simulation.Application.Models.LogOnModel
+
+@{ this.ViewBag.Title = "Log on"; }
+<p>Please enter your username and password. @this.Html.ActionLink("Register", "Register") if you don't have an account.</p>
+@this.Html.ValidationSummary(true, "Log on was unsuccessful. Please correct the errors and try again.")
+@using(this.Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    <div>
+        <fieldset>
+            <legend>Account Information</legend>
+            @this.Html.LabelFor(m => m.UserName)
+            @this.Html.TextBoxFor(m => m.UserName)
+            @this.Html.ValidationMessageFor(m => m.UserName)
+            @this.Html.LabelFor(m => m.Password)
+            @this.Html.PasswordFor(m => m.Password)
+            @this.Html.ValidationMessageFor(m => m.Password)
+            <div>
+                @this.Html.CheckBoxFor(m => m.RememberMe)
+                @this.Html.LabelFor(m => m.RememberMe)
+            </div>
+            <p>
+                <input type="submit" value="Log on" />
+            </p>
+        </fieldset>
+    </div>
+}

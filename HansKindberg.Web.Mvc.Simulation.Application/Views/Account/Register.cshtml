@@ -1,0 +1,50 @@
+﻿@model HansKindberg.Web.Mvc.Simulation.Application.Models.RegisterModel
+@{ this.ViewBag.Title = "Register"; }
+@if(!this.Request.IsAuthenticated)
+{
+    <h2>Create a new account</h2>
+    <p>Use the form below to create a new account.</p>
+    <p>Passwords are required to be a minimum of @this.ViewBag.PasswordLength characters in length.</p>
+    @Html.ValidationSummary(true, "Account creation was unsuccessful. Please correct the errors and try again.")
+    using(this.Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+        <div>
+            <fieldset>
+                <legend>Account Information</legend>
+                @this.Html.LabelFor(m => m.UserName)
+                @this.Html.TextBoxFor(m => m.UserName)
+                @this.Html.ValidationMessageFor(m => m.UserName)
+                @this.Html.LabelFor(m => m.Email)
+                @this.Html.TextBoxFor(m => m.Email)
+                @this.Html.ValidationMessageFor(m => m.Email)
+                @this.Html.LabelFor(m => m.Password)
+                @this.Html.PasswordFor(m => m.Password)
+                @this.Html.ValidationMessageFor(m => m.Password)
+                @this.Html.LabelFor(m => m.ConfirmPassword)
+                @this.Html.PasswordFor(m => m.ConfirmPassword)
+                @this.Html.ValidationMessageFor(m => m.ConfirmPassword)
+                <p>
+                    <input type="submit" value="Register" />
+                </p>
+            </fieldset>
+        </div>
+    }
+}
+else
+{
+    if(this.ViewBag.Confirm != null && this.ViewBag.Confirm)
+    {
+        <div class="alert alert-success">
+            <h2>Confirmation</h2>
+            <p>Welcome @this.User.Identity.Name! Your registration was successfull.</p>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-block">
+            <h2>Warning</h2>
+            <p>You are already logged on. You must log off before you can register.</p>
+        </div>
+    }
+}

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="false" CodeBehind="CurrentUserView.aspx.cs" Inherits="HansKindberg.Web.Simulation.Application.Views.CurrentUser.CurrentUserView" %>

@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="false" CodeBehind="SessionView.aspx.cs" Inherits="HansKindberg.Web.Simulation.Application.Views.Session.SessionView" %>

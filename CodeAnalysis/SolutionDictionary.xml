@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Dictionary>
+    <Acronyms>
+        <CasingExceptions>
+            <Acronym>Io</Acronym><!-- Inversion of -->
+        </CasingExceptions>
+    </Acronyms>
+    <Words>
+		<Recognized>
+			<Word>kindberg</Word>
+            <Word>mvc</Word><!-- Model View Controller -->
+            <Word>mvp</Word><!-- Model View Presenter -->
+		</Recognized>
+	</Words>
+</Dictionary>

@@ -1,0 +1,28 @@
+﻿@media (min-width: 979px) {
+    body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+    }
+}
+.field-validation-error,
+.input-validation-error,
+.validation-summary-errors {
+    background-color:#f2dede;
+    border:1px solid #eed3d7;
+    color:#b94a48;
+    padding:3px 35px 3px 14px; /* top, right, bottom and left */
+    text-shadow:0 1px 0 rgba(255, 255, 255, 0.5);
+    -moz-border-radius:4px;border-radius:4px;
+    -webkit-border-radius:4px;
+}
+.validation-summary-errors {
+    padding-right:14px;
+}
+.input-validation-error,
+#body .input-validation-error {
+    background-color:#f2dede;
+}
+.field-validation-valid,
+.validation-summary-valid {
+    display: none;
+}

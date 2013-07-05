@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="false" CodeBehind="CookieView.aspx.cs" Inherits="HansKindberg.Web.Simulation.Application.Views.Cookie.CookieView" %>

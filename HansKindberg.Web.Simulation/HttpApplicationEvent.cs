@@ -1,0 +1,31 @@
+﻿namespace HansKindberg.Web.Simulation
+{
+    public enum HttpApplicationEvent
+    {
+        AcquireRequestState,
+        AuthenticateRequest,
+        AuthorizeRequest,
+        BeginRequest,
+        Disposed,
+        EndRequest,
+        Error,
+        LogRequest,
+        MapRequestHandler,
+        PostAcquireRequestState,
+        PostAuthenticateRequest,
+        PostAuthorizeRequest,
+        PostLogRequest,
+        PostMapRequestHandler,
+        PostReleaseRequestState,
+        PostRequestHandlerExecute,
+        PostResolveRequestCache,
+        PostUpdateRequestCache,
+        PreRequestHandlerExecute,
+        PreSendRequestContent,
+        PreSendRequestHeaders,
+        ReleaseRequestState,
+        RequestCompleted,
+        ResolveRequestCache,
+        UpdateRequestCache
+    }
+}
