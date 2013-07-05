@@ -29,7 +29,9 @@ HansKindberg.Web.Simulation
 Main functionallity for starting ASP.NET web application hosts, both physical and virtual.
 * With a physical host you can do integration tests for a real web application.
 * With a virtual host you can fake a web application host for integration testing of assemblies for the web.
+
 Target framework: .NET Framework 3.5
+
 **Examples:**
 * [ApplicationHostProxy](HansKindberg.Web.Simulation.IntegrationTests/Hosting/ApplicationHostProxyTest.cs)
 * [VirtualApplicationHostProxy](HansKindberg.Web.Simulation.IntegrationTests/Hosting/VirtualApplicationHostProxyTest.cs)
@@ -37,7 +39,9 @@ Target framework: .NET Framework 3.5
 HansKindberg.Web.Mvc.Simulation
 -------------------------------
 ASP.NET Web Server simulation for MVC. MVC additions/extensions for HansKindberg.Web.Simulation to support starting ASP.NET MVC host.
+
 Target framework: .NET Framework 4.0
 System.Web.Mvc 4.0
+
 **Examples:**
 * [MvcApplicationHostProxy](HansKindberg.Web.Mvc.Simulation.IntegrationTests/Hosting/MvcApplicationHostProxyTest.cs)
