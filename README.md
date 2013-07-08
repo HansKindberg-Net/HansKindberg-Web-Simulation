@@ -33,6 +33,9 @@ Main functionallity for starting ASP.NET web application hosts, both physical an
 **Frameworks**
 * Target framework: .NET Framework 3.5
 
+**NuGet**
+* https://nuget.org/packages/HansKindberg.Web.Simulation/
+
 **Examples:**
 * [ApplicationHostProxy](HansKindberg.Web.Simulation.IntegrationTests/Hosting/ApplicationHostProxyTest.cs)
 * [VirtualApplicationHostProxy](HansKindberg.Web.Simulation.IntegrationTests/Hosting/VirtualApplicationHostProxyTest.cs)
@@ -44,6 +47,9 @@ ASP.NET Web Server simulation for MVC. MVC additions/extensions for HansKindberg
 **Frameworks**
 * Target framework: .NET Framework 4.0
 * System.Web.Mvc 4.0
+
+**NuGet**
+* https://nuget.org/packages/HansKindberg.Web.Mvc.Simulation/
 
 **Examples:**
 * [MvcApplicationHostProxy](HansKindberg.Web.Mvc.Simulation.IntegrationTests/Hosting/MvcApplicationHostProxyTest.cs)
